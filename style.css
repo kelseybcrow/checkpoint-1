@@ -8,6 +8,13 @@ header {
 
      }
 
+.jumbo-1 {
+    background-image: url(jumbo-terrarium.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 50vh;
+    }
+
 main {
     flex-grow: 1;
 }
