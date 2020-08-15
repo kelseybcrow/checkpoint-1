@@ -9,120 +9,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="container-fluid">
+<body>
 
-    <header>
-        <div class="row">
-            <div class="col-12">
-                <nav class="navbar navbar-light bg-secondary">
-                    <a class="navbar-brand" href="#!">Terrarium Fun</a>
-                </nav>
-                <div class="col-12 jumbotron jumbotron-fluid jumbo-1">
-                    <div class="row text-light">
-                        <div class="col-5" justify-content->
-                            <form class="border border-dark bg-light text-dark">
-                                <div class="form-group">
-                                    <label for="exampleFormControlInput1">Email address</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="name@example.com">
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleFormControlSelect1">Example select</label>
-                                    <select class="form-control" id="exampleFormControlSelect1">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleFormControlSelect2">Example multiple select</label>
-                                    <select multiple class="form-control" id="exampleFormControlSelect2">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleFormControlTextarea1">Example textarea</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="col-7">
-                            <h1 class="display-4">Yay, we love terrariums!</h1>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima sed vitae accusamus
-                                libero
-                                ut, animi alias nisi officiis assumenda, molestiae eaque doloribus ex sunt vel explicabo
-                                perspiciatis recusandae tempora delectus.</p>
-                        </div>
+    <header class="container-fluid p-0">
+        <nav class="navbar navbar-light bg-info">
+            <a class="navbar-brand" href="#!">Terrarium Fun</a>
+        </nav>
+        <div class="row d-flex flex-row header-top">
+            <form class="col-5">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
                     </div>
-
                 </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <div class="col-7">
+                <h2>Put subtitle here</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab dolorem, quas delectus magnam suscipit
+                    totam mollitia culpa!</p>
             </div>
         </div>
     </header>
 
-
-    <main>
-        <div class="row bg-secondary">
-            <div class="col-5">
-                <h2>Terrariums, yo</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias fugiat pariatur harum perferendis
-                    dicta quaerat adipisci at? Praesentium ab inventore perspiciatis aliquid. Ratione cum cumque
-                    eligendi quas! Illo, eaque mollitia.</p>
-            </div>
-            <div class="col-7">
-                <div class="card">
-                    <h4 class="card-title">Icons card</h4>
-                    <p class="card-text">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius eaque possimus ad est quaerat
-                        tenetur aperiam optio quia non ratione eligendi, laudantium asperiores omnis sint libero!
-                        Repudiandae nam eaque ab!
-                    </p>
-                </div>
-            </div>
-
-        </div>
-        <div class="row">
-            <div class="col-4">
-
-            </div>
-            <div class="col-8">
-
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-4">
-
-            </div>
-            <div class="col-4">
-
-            </div>
-            <div class="col-4">
-
-            </div>
-        </div>
-
+    <main class="container-fluid">
+        <section class="row hero-image align-items-center"></section>
     </main>
 
     <footer>
-        <div class="row">
-            <div class="col-12">
 
-            </div>
-            <div class="col-12">
-
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-
-            </div>
-        </div>
     </footer>
 
     <script src='https://code.jquery.com/jquery-3.2.1.slim.min.js'
