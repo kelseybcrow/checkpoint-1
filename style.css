@@ -6,6 +6,8 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100 !important;
 }
 
 header {
@@ -21,6 +23,9 @@ footer {
     min-height: 50px;
  }
 
+ h1, h2, h3, h4, h5 {
+     font-weight: 100 !important;
+ }
 
 .header-row {
     background-image: url(header-pic.jpg);
