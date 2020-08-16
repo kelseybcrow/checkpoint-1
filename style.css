@@ -23,7 +23,9 @@ footer {
 
 
 .header-row {
-    background-image: url(//placehold.it/1500x700);
+    background-image: url(header-pic.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 
