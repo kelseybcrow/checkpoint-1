@@ -38,3 +38,11 @@ footer {
 .side-pic-row {
     height: 50vh;
 }
+
+.testimonial-row {
+    height: 35vh;
+}
+
+.testimonial-card {
+    border-radius: 0;
+}
