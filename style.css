@@ -31,4 +31,10 @@ footer {
 
 .icons-card {
     border-radius: 0;
+    position: absolute;
+    top: 2%;
+}
+
+.side-pic-row {
+    height: 50vh;
 }
