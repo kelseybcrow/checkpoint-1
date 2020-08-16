@@ -41,14 +41,18 @@ footer {
 }
 
 .side-pic-row {
-    height: 50vh;
+    height: 55vh;
 }
 
 .testimonial-row {
-    height: 35vh;
+    height: 45vh;
 }
 
 
 .testimonial-card {
     border-radius: 0;
+}
+
+.jumbo-quote {
+    font-size: x-large;
 }
