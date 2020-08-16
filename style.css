@@ -22,8 +22,10 @@ footer {
  }
 
 
-.header-top {
+.header-row {
     background-image: url(//placehold.it/1500x700);
-    height: 30em;
-    width: 100%;
+}
+
+.icons-card {
+    border-radius: 0;
 }

@@ -5,75 +5,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checkpoint-1</title>
+    <script src="https://use.fontawesome.com/7b48438451.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
     <header class="container-fluid p-0">
         <!-- Nav bar -->
         <nav class="navbar navbar-light bg-info">
-            <a class="navbar-brand" href="#!">Terrarium Fun</a>
+            <a class="navbar-brand" href="#">
+                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                TERRARIUM LOVE</a>
         </nav>
         <!-- Top background image part -->
-        <div class="row d-flex flex-row align-items-start header-top m-0">
+        <div class="row d-flex flex-row align-items-start header-row m-0 w-100 h-30">
             <!-- Top form on left -->
             <div class="col-3 m-3">
-                <h5>Form subtitle</h5>
+                <h5>FORM SUBTITLE</h5>
                 <form class="bg-light p-0">
+                    <h5 class="text-info">ANOTHER SUBTITLE</h5>
                     <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="inputEmail4">Email</label>
-                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                        <div class="col">
+                            <input type="text" class="form-control-sm" id="formGroupExampleInput" placeholder="NAME">
                         </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputPassword4">Password</label>
-                            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputAddress">Address</label>
-                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                    </div>
-                    <div class="form-group">
-                        <label for="inputAddress2">Address 2</label>
-                        <input type="text" class="form-control" id="inputAddress2"
-                            placeholder="Apartment, studio, or floor">
                     </div>
                     <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="inputCity">City</label>
-                            <input type="text" class="form-control" id="inputCity">
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label for="inputState">State</label>
-                            <select id="inputState" class="form-control">
-                                <option selected>Choose...</option>
-                                <option>...</option>
-                            </select>
-                        </div>
-                        <div class="form-group col-md-2">
-                            <label for="inputZip">Zip</label>
-                            <input type="text" class="form-control" id="inputZip">
+                        <div class="col">
+                            <input type="email" class="form-control-sm" id="inputEmail4" placeholder="EMAIL">
                         </div>
                     </div>
-                    <div class="form-group">
+                    <div class="form-row">
+                        <div class="col-6">
+                            <input type="text" class="form-control-sm" placeholder="PHONE">
+                        </div>
+                        <div class="col-6">
+                            <input type="text" class="form-control-sm" placeholder="EXT.">
+                        </div>
+                    </div>
+                    <div class="form-row">
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="gridCheck">
                             <label class="form-check-label" for="gridCheck">
-                                Check me out
+                                By checking this box I agree to the terms.
                             </label>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Sign in</button>
+                    <button type="submit" class="btn-sm btn-info">Sign in</button>
                 </form>
             </div>
+            <!-- Top text card on right -->
             <div class="col">
-                <!-- Top text card on right -->
                 <div class="card text-left border-0 bg-transparent">
                     <div class="card-body">
-                        <h2 class="card-title">Terrariums</h2>
+                        <h2 class="card-title">TERRARIUMS</h2>
                         <h4 class="card-text">With supporting text below as a natural lead-in to additional content.
                         </h4>
                     </div>
@@ -81,14 +66,34 @@
             </div>
         </div>
     </header>
-
+    <!-- Middle row part -->
     <main class="container-fluid">
-        <section class="row hero-image align-items-center"></section>
+        <div class="row bg-info">
+            <!-- Simple card on left -->
+            <div class="col-5">
+                <div class="card text-left border-0 bg-transparent">
+                    <div class="card-body">
+                        <h4 class="card-title">TERRARIUMS</h4>
+                        <h6 class="card-text">With supporting text below as a natural lead-in to additional content.
+                        </h6>
+                    </div>
+                </div>
+            </div>
+            <!-- Icons card on right -->
+            <div class="col">
+                <div class="card text-left border-0 shadow-lg icons-card">
+                    <div class="card-body">
+                        <p class="card-text">With supporting text below as a natural.</p>
+                        <p class="card-text">With supporting text below as a natural.</p>
+                        <p class="card-text">With supporting text below as a natural.</p>
+                        <p class="card-text">With supporting text below as a natural.</p>
+                        <p class="card-text">With supporting text below as a natural.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-
-    <footer>
-
-    </footer>
+    <footer></footer>
 
     <script src='https://code.jquery.com/jquery-3.2.1.slim.min.js'
         integrity='sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN'
