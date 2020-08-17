@@ -20,7 +20,16 @@ main {
 }
 
 footer {
-    min-height: 50px;
+    /* min-height: 50px; */
+ }
+
+ .row {
+     min-height: auto;
+     min-width: 100%;
+ }
+
+ .col {
+     max-height: 100%;
  }
 
  h1, h2, h3, h4, h5 {
@@ -34,19 +43,27 @@ footer {
     background-size: cover;
 }
 
+/* .icons-card-row {
+    min-height: 30%;
+} */
+
 
 .icons-card {
     border-radius: 0;
-    position: absolute;
-    top: 2%;
+    /* position: absolute;
+    top: 2%; */
 }
 
 .side-pic-row {
-    height: 55vh;
+    /* height: 55vh; */
+}
+
+.side-pic {
+    max-height: 100%;
 }
 
 .testimonial-row {
-    height: 45vh;
+    /* height: 45vh; */
 }
 
 
