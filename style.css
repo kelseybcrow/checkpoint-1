@@ -29,6 +29,7 @@ footer {
 
 .header-row {
     background-image: url(header-pic.jpg);
+    background-color: gray;
     background-position: center;
     background-size: cover;
 }
@@ -36,8 +37,8 @@ footer {
 
 .icons-card {
     border-radius: 0;
-    /* position: absolute;
-    top: 2%; */
+    position: absolute;
+    top: 2%;
 }
 
 .side-pic-row {
